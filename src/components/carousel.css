@@ -1,0 +1,21 @@
+.carousel{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.frame-1{
+    width: 364px;
+    height: 336px;
+    
+}
+
+.text-frame{
+    width: 649px;
+    font-family: Roboto Flex;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 5%;
+    
+}
