@@ -5,20 +5,20 @@ export default function Footer(){
         <>
             <div className="footer">
                 <div className="container-item-footer logo-div">
-                    <img src="/src/assets/logo1.png" alt="Logo-footer" />
-                    <nav>
-                        <a href="#"><img className="logo-social" src="/src/assets/SocialIcon.png" alt="" /></a>
-                        <a href="#"><img className="logo-social" src="/src/assets/bxl-linkedin.svg" alt="" /></a>
-                        <a href="#"><img className="logo-social" src="/src/assets/bxl-facebook.svg" alt="" /></a>
-                        <a href="#"><img className="logo-social" src="/src/assets/bxl-youtube.svg" alt="" /></a>
+                    <img  className="logo-footer" src="/src/assets/logo1.png" alt="Logo-footer" />
+                    <nav className="nav-footer">
+                        <a href="#"><img className="logo-social" src="/src/assets/instagram-logo-24.png" alt="" /></a>
+                        <a href="#"><img className="logo-social" src="/src/assets/linkedin-logo-24.png" alt="" /></a>
+                        <a href="#"><img className="logo-social" src="/src/assets/facebook-logo-24.png" alt="" /></a>
+                        <a href="#"><img className="logo-social" src="/src/assets/youtube-logo-24.png" alt="" /></a>
                     </nav>
                 </div>
                 <div className="container-item-footer">
                     <p className="title-footer">Soporte</p>
-                    <a className="text-footer-links" href="">Servicios</a>
-                    <a className="text-footer-links" href="">Sobre nosotros</a>
-                    <a className="text-footer-links" href="">Testimonios</a>
-                    <a className="text-footer-links" href="">Trabaja con nosotros</a>
+                    <a className="text-footer-links" href="#services">Servicios</a>
+                    <a className="text-footer-links" href="#about">Sobre nosotros</a>
+                    <a className="text-footer-links" href="#testimonios">Testimonios</a>
+                    <a className="text-footer-links" href="#work">Trabaja con nosotros</a>
                 </div>
                 <div className="container-item-footer">
                     <p className="title-footer">Contacto</p>

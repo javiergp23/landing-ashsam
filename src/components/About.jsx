@@ -3,7 +3,7 @@ import "./about.css"
 export default function About(){
     return(
         <>
-            <div className="about-container">
+            <div className="about-container" id="about">
                 <h1 className="title-about">
                 Queremos que nos conoscas
                 </h1>
@@ -31,11 +31,11 @@ export default function About(){
                 </div>
                 <div className="about-section-text-container">
                     <p className="about-section-text">
-                        Somos una empresa que tiene como <span className="text-span">objetivo el crecimiento de nuestros clientes</span> mediante el desarrollo de software a la medida, la provisión de recursos calificados y la gestión integral de proyectos. <br className="space-text"/>
+                        Somos una empresa que tiene como <span className="text-span">objetivo el crecimiento de nuestros clientes</span> mediante el desarrollo de software a la medida, la provisión de recursos calificados y la gestión integral de proyectos. <br className="space-text"/> <br />
 
-                        Nos comprometemos a entregar resultados excepcionales, ya que trabajamos de la mano de la innovación y el compromiso hacia nuestros clientes. <br className="space-text"/>
+                        Nos comprometemos a entregar resultados excepcionales, ya que trabajamos de la mano de la innovación y el compromiso hacia nuestros clientes. <br className="space-text"/> <br />
 
-                        Tenemos una meta, ser tu socio lider en soluciones tecnologias innovadoras transformando el futuro de tu empresa en su mejor version. <br className="space-text"/>
+                        Tenemos una meta, ser tu socio lider en soluciones tecnologias innovadoras transformando el futuro de tu empresa en su mejor version. <br className="space-text"/> <br />
 
                         <span className="text-span">Estamos para ayudarte a crear el exito de tus sueños. </span>
                     </p>

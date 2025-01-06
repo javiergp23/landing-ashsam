@@ -3,7 +3,7 @@ import "./workWithUs.css"
 export default function WorkWithUs(){
     return(
         <div className="work-section">
-            <div className="work-section-text-container">
+            <div className="work-section-text-container" id="work">
                 <h1 className="work-title">¿Te gustaria trabajar con nosotros?</h1>
                 <p className="work-section-text">
                     Unite a un equipo innovador y dinamico donde tu crecimiento profesional es una prioridad. <br /><br />

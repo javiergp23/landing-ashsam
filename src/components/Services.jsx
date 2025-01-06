@@ -4,7 +4,7 @@ import Card from "./Card"
 export default function Services(){
     return(
         <>
-            <div className="services-container">
+            <div className="services-container" id="services">
                 <h1>
                     Estamos para vos
                 </h1>
