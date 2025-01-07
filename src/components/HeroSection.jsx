@@ -17,8 +17,7 @@ export default function HeroSection(){
             </div>
             <div className="hero-content-two">
                 <h2 className="tiitle-two">Nuestro compromiso</h2>
-                <p className="subtiitle-two">Es con vos</p>
-                
+                <p className="subtiitle-two">Es con vos</p> 
             </div>
         </div>
     )

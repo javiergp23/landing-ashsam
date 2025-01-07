@@ -37,3 +37,38 @@
     color: black;
     margin-bottom: 60px;
 }
+
+/* MODAL */
+.modal-container{
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  position: relative;
+}
+
+.modal-container-style{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    padding: 30px;
+    
+}
+
+.img-modal{
+    width: 250px;
+    height: 245px;
+}
+.title-modal{
+    font-family: Space Grotesk;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.0222em;
+    text-align: left;
+
+}
+.paragraph-modal{
+    font-family: Roboto Flex;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
