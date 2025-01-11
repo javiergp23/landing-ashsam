@@ -29,7 +29,7 @@ export default function CardTestimonios() {
   return (
     <>
       <div className="container-carousel" >
-        <Carousel showArrows={false} infiniteLoop={true} showThumbs={false} showIndicators={false} 
+        <Carousel className="carouselContainer" showArrows={false} infiniteLoop={true} showThumbs={false} showIndicators={false} 
           showStatus={false}>
           {testimonials.map((testimonial) => (
             <div className="card-content"

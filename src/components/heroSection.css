@@ -103,4 +103,145 @@
 }
 
 
+/* Teléfonos estándar (321px - 480px) */
+@media (min-width: 321px) and (max-width: 480px) {
+    .hero-section{
+        background-image: url('/src//assets/rectangle.png');
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: 1400px;
+        overflow-x: hidden;
+    }
+    
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .nav-bar_link{
+        font-family: Roboto;
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 1.8rem;
+        font-size: 20px;
+    }
+    
+    .img-logo{
+        margin-right: 1%;
+        width: 130px;
 
+    }
+
+    .select-lang{
+        margin-left: 5%;
+        background-color: transparent;
+        color: #ffffff;
+        border-radius: 6px;
+        font-size: 20px;
+        padding: 3px;
+        border-color: #ffffff;
+    }
+    
+    .hero-section-content{
+        display: flex;
+        margin: 0 0 0 4%;
+        width: 100wh;
+    }
+    
+    .hero-section_title{
+        width: 180px;
+        font-family: Sarpanch;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 30%;
+    }
+    
+    .hero-section_subtitle{
+        font-family: Roboto Flex;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 35%;
+    }
+    
+    .button-hero-section{
+        font-family: Roboto Flex;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 29.3px;
+        text-align: left;
+        background-color: #E05330;
+        color: #ffffff;
+        border-radius: 12px;
+        padding: 8px;
+        border: none;
+    }
+    
+    .hero-section_img{
+        margin-left: 2%;
+    }
+    
+    .hero-section_img-1{
+        width: 60%;
+        height: 80%;
+    }
+    
+    .hero-content-two{
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    .tiitle-two{
+        color: #0F298B;
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .subtiitle-two{
+        font-family: Space Grotesk;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 12%;
+    }
+  }
+  
+  /* Teléfonos grandes (481px - 767px) */
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para teléfonos grandes o phablets */
+  }
+  
+  /* Tablets en orientación vertical (768px - 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets en orientación vertical */
+  }
+  
+  /* Tablets en orientación horizontal (1025px - 1280px) */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* Estilos para tablets en orientación horizontal o laptops pequeñas */
+  }
+  
+  /* Pantallas de escritorio pequeñas (1281px - 1440px) */
+  @media (min-width: 1281px) and (max-width: 1440px) {
+    /* Estilos para pantallas de escritorio pequeñas */
+  }
+  
+  /* Pantallas de escritorio grandes (1441px - 1920px) */
+  @media (min-width: 1441px) and (max-width: 1920px) {
+    /* Estilos para pantallas de escritorio grandes */
+  }
+  
+  /* Pantallas 4K y superiores (más de 1920px) */
+  @media (min-width: 1921px) {
+    /* Estilos para pantallas muy grandes (4K) */
+  }

@@ -43,7 +43,7 @@
 }
 
 .carousel-img{
-    position: absolute;
+ position: absolute;
   top: -50px; /* Ajusta esta distancia para que la imagen sobresalga */
   left: 50%;
   transform: translateX(-50%);
@@ -54,3 +54,4 @@
   object-fit: cover;
   z-index: 2;
 }
+
